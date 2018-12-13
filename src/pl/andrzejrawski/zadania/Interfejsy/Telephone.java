@@ -1,6 +1,6 @@
 package pl.andrzejrawski.zadania.Interfejsy;
 
-public class Smartphone implements Telefon {
+public class Telephone implements Telefon{
     @Override
     public void phoneTo(int number) {
         System.out.println("Phone to " + number);
