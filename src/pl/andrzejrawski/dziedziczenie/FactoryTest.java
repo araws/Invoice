@@ -10,7 +10,7 @@ public class FactoryTest {
         phoneFactory.testPhone();
 
         carFactory.produce();
-        phoneFactory.checkState();
+        phoneFactory.produce();
 
         carFactory.checkState();
         phoneFactory.checkState();

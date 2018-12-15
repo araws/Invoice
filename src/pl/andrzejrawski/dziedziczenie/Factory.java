@@ -3,7 +3,7 @@ package pl.andrzejrawski.dziedziczenie;
 abstract class Factory {
 
      void produce () {
-         System.out.println("Produce");
+         System.out.println("produce");
     }
 
      void checkState () {
