@@ -5,4 +5,9 @@ package pl.andrzejrawski.dziedziczenie;
      void testDrive () {
         System.out.println("testDrive");
     }
-}
+
+     @Override
+     public void destroy() {
+         System.out.println("carDestroy");
+     }
+ }
