@@ -11,5 +11,17 @@ public class FactoryTest {
 
         carFactory.produce();
         phoneFactory.checkState();
+
+//        Factory factory = new Factory() {
+//            @Override
+//            void produce() {
+//                super.produce();
+//            }
+//
+//            @Override
+//            void checkState() {
+//                super.checkState();
+//            }
+//        };
     }
 }
