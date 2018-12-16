@@ -1,14 +1,14 @@
 package pl.andrzejrawski.dziedziczenie;
 
- class CarFactory extends Factory {
+ public class CarFactory extends Factory {
 
      @Override
-     void checkState() {
+     public void checkState() {
          super.checkState();
          System.out.println("checkStateInCarFactory");
      }
 
-     void testDrive () {
+     public void testDrive () {
         System.out.println("testDrive");
     }
 
