@@ -4,7 +4,7 @@ package pl.andrzejrawski.dziedziczenie;
 
      @Override
      void checkState() {
-//         super.checkState();
+         super.checkState();
          System.out.println("checkStateInCarFactory");
      }
 
