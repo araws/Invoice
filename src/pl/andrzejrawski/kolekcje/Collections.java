@@ -13,5 +13,11 @@ public class Collections {
 
         Set<String> hashSet = new HashSet<>();
         Set<String> treeSet = new TreeSet<>();
+
+        hashSet.addAll(list);
+        treeSet.addAll(list);
+
+        System.out.println(hashSet);
+        System.out.println(treeSet);
     }
 }
