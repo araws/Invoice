@@ -8,9 +8,10 @@ public class Collections {
         List<String> list = new ArrayList<>();
         list.add("tekst");
         list.add("tekst");
+        list.add("abc");
         System.out.println(list);
 
-        Set<String> treeSet = new TreeSet<>();
         Set<String> hashSet = new HashSet<>();
+        Set<String> treeSet = new TreeSet<>();
     }
 }
