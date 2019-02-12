@@ -1,4 +1,4 @@
-package pl.andrzejrawski.zadania.zKsiazki;
+package pl.andrzejrawski.zadania.zKsiazki.IO;
 
 import java.io.BufferedReader;
 import java.io.IOException;
