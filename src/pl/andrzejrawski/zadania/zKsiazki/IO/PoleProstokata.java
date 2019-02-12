@@ -3,6 +3,7 @@ package pl.andrzejrawski.zadania.zKsiazki.IO;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.IllegalFormatException;
 
 public class PoleProstokata {
 
@@ -11,16 +12,22 @@ public class PoleProstokata {
         double a;
         double b;
         double pole;
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("Program oblicza pole prostokąta.");
-        System.out.println("Podaj długość boku a:");
-        a = Double.parseDouble(br.readLine());
-        System.out.println("Podaj długość boku b:");
-        b = Double.parseDouble(br.readLine());
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
 
-        pole = a * b;
+            System.out.println("Program oblicza pole prostokąta.");
+            System.out.println("Podaj długość boku a:");
+            a = Double.parseDouble(br.readLine());
+            System.out.println("Podaj długość boku b:");
+            b = Double.parseDouble(br.readLine());
 
-        System.out.println("Pole prosokąta o bokach a = " + a + " oraz b = " + b + " wynosi: " + pole);
+            pole = a * b;
+
+            System.out.println("Pole prosokąta o bokach a = " + a + " oraz b = " + b + " wynosi: " + pole);
+        }
+        catch (IllegalArgumentException iae) {
+            System.out.println("Nie podano liczby!");
+        }
+
     }
 }
