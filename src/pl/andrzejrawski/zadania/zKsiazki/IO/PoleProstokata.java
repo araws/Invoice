@@ -3,7 +3,6 @@ package pl.andrzejrawski.zadania.zKsiazki.IO;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.IllegalFormatException;
 
 public class PoleProstokata {
 
