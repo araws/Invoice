@@ -32,10 +32,10 @@ public class SimpleCalculator {
 
         System.out.printf("Dla liczb a = %.2f i b = %.2f", a, b);
         System.out.println();
-        System.out.printf("Suma = %.2f", addition);
-        System.out.printf(", różnica = %.2f", substraction);
-        System.out.printf(", iloczyn = %.2f", multiplication);
-        System.out.printf(", iloraz = %.2f", division);
+        System.out.printf("Suma = %.2f \n", addition);
+        System.out.printf("Różnica = %.2f \n", substraction);
+        System.out.printf("Iloczyn = %.2f \n", multiplication);
+        System.out.printf("Iloraz = %.2f \n", division);
 
         } catch (NumberFormatException nfe) {
             System.out.println( "Nie podano liczby!" );

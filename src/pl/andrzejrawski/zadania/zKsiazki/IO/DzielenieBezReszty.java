@@ -22,7 +22,7 @@ public class DzielenieBezReszty {
 
             System.out.println("Wynik dzielenia bez reszty a/b = " + wynik);
         } catch (NumberFormatException nfe) {
-            System.out.println("Nie podano liczby!s");
+            System.out.println("Nie podano liczby!");
         } catch (ArithmeticException ae) {
             System.out.println("Nie można dzielić przez 0!");
         } catch (IOException e) {

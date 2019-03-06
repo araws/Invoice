@@ -24,7 +24,7 @@ public class PoleProstokata {
 
             System.out.println("Pole prosokąta o bokach a = " + a + " oraz b = " + b + " wynosi: " + pole);
         }
-        catch (IllegalArgumentException iae) {
+        catch (NumberFormatException nfe) {
             System.out.println("Nie podano liczby!");
         }
 
