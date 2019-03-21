@@ -11,7 +11,7 @@ public class Alphabet {
             if (character == 'Z') {
                 System.out.println(character + ".");
                 System.out.println();
-            }
+            }                                                                                                                                                                                                                                                                                                   
         }
         for (character = 'Z'; character >= 'A' ; character--) {
             if (character > 'A') {
